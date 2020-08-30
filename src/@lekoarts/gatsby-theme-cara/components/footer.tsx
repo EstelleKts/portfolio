@@ -24,7 +24,8 @@ const Footer = () => {
       >
         {isDark ? `Light` : `Dark`}
       </button>
-      Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+      Copyright &copy; {new Date().getFullYear()}. Made by EstelleKts with 🖤.
+      <br /> All rights reserved.
       <br />
       <Flex
         sx={{
@@ -32,7 +33,7 @@ const Footer = () => {
           alignItems: `center`,
           mt: 3,
           color: `text`,
-          fontWeight: `semibold`,
+          // fontWeight: `semibold`,
           a: { color: `text` },
         }}
       >
