@@ -39,7 +39,6 @@ const Projects = ({
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
       <UpDown>
-        <SVG icon="box" width={6} color="icon_brightest" left="85%" top="75%" />
         <SVG icon="upDown" width={8} color="icon_teal" left="70%" top="20%" />
         <SVG
           icon="triangle"
@@ -48,14 +47,6 @@ const Projects = ({
           color="icon_pink"
           left="25%"
           top="5%"
-        />
-        <SVG
-          icon="circle"
-          hiddenMobile
-          width={24}
-          color="icon_brightest"
-          left="17%"
-          top="60%"
         />
       </UpDown>
       <UpDownWide>
@@ -110,8 +101,6 @@ const Projects = ({
         top="20%"
       />
       <SVG icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
-      <SVG icon="box" width={6} color="icon_pink" left="10%" top="10%" />
-      <SVG icon="box" width={12} color="icon_pink" left="29%" top="26%" />
       <SVG
         icon="hexa"
         width={16}
