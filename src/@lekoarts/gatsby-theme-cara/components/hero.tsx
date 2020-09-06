@@ -15,11 +15,11 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         <SVG
           icon="triangle"
           hiddenMobile
-          width={48}
+          width={40}
           stroke
           color="icon_orange"
           left="10%"
-          top="20%"
+          top="18%"
         />
         <SVG
           icon="hexa"
