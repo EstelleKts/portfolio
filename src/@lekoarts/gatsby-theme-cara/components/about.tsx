@@ -23,7 +23,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="box"
           hiddenMobile
           width={6}
-          color="icon_blue"
+          color="icon_pink"
           left="50%"
           top="75%"
         />
@@ -47,7 +47,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="upDown"
           hiddenMobile
           width={24}
-          color="icon_orange"
+          color="icon_pink"
           left="80%"
           top="80%"
         />
@@ -57,7 +57,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="arrowUp"
           hiddenMobile
           width={16}
-          color="icon_purple"
+          color="icon_pink"
           left="5%"
           top="80%"
         />
@@ -95,7 +95,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         top="20%"
       />
       <SVG icon="circle" width={12} color="icon_darkest" left="70%" top="60%" />
-      <SVG icon="box" width={6} color="icon_orange" left="10%" top="10%" />
+      <SVG icon="box" width={6} color="icon_pink" left="10%" top="10%" />
       <SVG icon="box" width={12} color="icon_darkest" left="20%" top="30%" />
       <SVG
         icon="hexa"
