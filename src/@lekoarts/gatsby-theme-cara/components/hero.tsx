@@ -13,11 +13,11 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Divider speed={0.2} offset={offset} factor={factor}>
       <UpDown>
         <SVG
-          icon="triangle"
+          icon="cross"
           hiddenMobile
-          width={40}
+          width={20}
           stroke
-          color="icon_orange"
+          color="icon_pink"
           left="10%"
           top="18%"
         />
@@ -25,7 +25,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="hexa"
           width={48}
           stroke
-          color="icon_red"
+          color="icon_pink"
           left="60%"
           top="70%"
         />
@@ -36,7 +36,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           icon="arrowUp"
           hiddenMobile
           width={16}
-          color="icon_blue"
+          color="icon_pink"
           left="80%"
           top="10%"
         />
@@ -62,14 +62,6 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
           color="icon_darkest"
           left="30%"
           top="65%"
-        />
-        <SVG
-          icon="cross"
-          width={16}
-          stroke
-          color="icon_pink"
-          left="28%"
-          top="15%"
         />
         <SVG
           icon="circle"
@@ -114,25 +106,9 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
         left="25%"
         top="5%"
       />
-      <SVG icon="circle" width={64} color="icon_green" left="95%" top="5%" />
-      <SVG
-        icon="box"
-        hiddenMobile
-        width={64}
-        color="icon_purple"
-        left="5%"
-        top="90%"
-      />
+      <SVG icon="circle" width={64} color="icon_pink" left="95%" top="5%" />
       <SVG icon="box" width={6} color="icon_darkest" left="10%" top="10%" />
       <SVG icon="box" width={12} color="icon_darkest" left="40%" top="30%" />
-      <SVG
-        icon="hexa"
-        width={16}
-        stroke
-        color="icon_darker"
-        left="10%"
-        top="50%"
-      />
       <SVG
         icon="hexa"
         width={8}
