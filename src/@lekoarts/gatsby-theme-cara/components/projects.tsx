@@ -45,7 +45,7 @@ const Projects = ({
           icon="triangle"
           width={8}
           stroke
-          color="icon_orange"
+          color="icon_pink"
           left="25%"
           top="5%"
         />
@@ -63,7 +63,7 @@ const Projects = ({
           icon="arrowUp"
           hiddenMobile
           width={16}
-          color="icon_green"
+          color="icon_pink"
           left="20%"
           top="90%"
         />
@@ -75,13 +75,7 @@ const Projects = ({
           left="90%"
           top="30%"
         />
-        <SVG
-          icon="circle"
-          width={16}
-          color="icon_yellow"
-          left="70%"
-          top="90%"
-        />
+        <SVG icon="circle" width={16} color="icon_pink" left="70%" top="90%" />
         <SVG
           icon="triangle"
           hiddenMobile
@@ -102,7 +96,7 @@ const Projects = ({
           icon="upDown"
           hiddenMobile
           width={8}
-          color="icon_green"
+          color="icon_pink"
           left="45%"
           top="10%"
         />
@@ -116,13 +110,13 @@ const Projects = ({
         top="20%"
       />
       <SVG icon="circle" width={12} color="icon_pink" left="80%" top="60%" />
-      <SVG icon="box" width={6} color="icon_orange" left="10%" top="10%" />
-      <SVG icon="box" width={12} color="icon_yellow" left="29%" top="26%" />
+      <SVG icon="box" width={6} color="icon_pink" left="10%" top="10%" />
+      <SVG icon="box" width={12} color="icon_pink" left="29%" top="26%" />
       <SVG
         icon="hexa"
         width={16}
         stroke
-        color="icon_red"
+        color="icon_pink"
         left="75%"
         top="30%"
       />
@@ -130,7 +124,7 @@ const Projects = ({
         icon="hexa"
         width={8}
         stroke
-        color="icon_yellow"
+        color="icon_pink"
         left="80%"
         top="70%"
       />
