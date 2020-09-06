@@ -24,7 +24,7 @@ const ProjectCard = ({ link, title, children, bg }: ProjectCardProps) => (
       // py: [4, 5],
       pb: [3, 4],
       color: `white`,
-      background: bg || `none`,
+      background: "linear-gradient(to right, #662D8C 0%, #ED1E79 100%)",
       transition: `all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important`,
       "&:hover": {
         color: `white !important`,
